@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText android:id="@+id/editText1"
+            android:layout_height="wrap_content"
+            android:layout_width="244dp"
+            android:layout_marginEnd="16dp"
+            android:hint="Enter first text here" />
+
+        <Button android:id="@+id/btnSwap"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:hint="Swap" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText android:id="@+id/editText2"
+            android:layout_height="wrap_content"
+            android:layout_width="244dp"
+            android:layout_marginEnd="16dp"
+            android:hint="Enter second text here" />
+
+        <Button android:id="@+id/btnCheck"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:hint="Check" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
